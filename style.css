@@ -1,8 +1,28 @@
+/* Resetting */
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+li, h3 {
+  list-style: none;
+}
+
+input,button{
+  outline: none;
+}
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+}
+
+.main {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .header {
@@ -25,34 +45,11 @@
   }
 }
 
-.main {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
-}
-
 .task-label,
 .task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-}
-
-.new-task-form {
-  display: flex;
-}
-
-ul {
-  margin: 0;
-  padding: 0px;
-}
-
-li, h3 {
-  list-style: none;
-}
-
-input,button{
-  outline: none;
 }
 
 .button {
@@ -81,25 +78,11 @@ input,button{
   text-transform: uppercase;
 }
 
-.task-input {
-  margin: 0;
-  font-size: 18px;
-  line-height: 18px;
-  height: 21px;
-  padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 6px;
-  font-family: Lato, sans-serif;
-  color: #888;
-  width: 226px
-}
-
-.task-input:focus {
-  color: #333;
-}
-
 /* New Task */
+.new-task-form {
+  display: flex;
+}
+
 .new-task-label {
   display: block;
   margin: 0 0 20px;
@@ -121,6 +104,24 @@ input,button{
 
 .task-item > * {
   vertical-align: middle;
+}
+
+.task-input {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  width: 226px;
+}
+
+.task-input:focus {
+  color: #333;
 }
 
 .checkbox {
