@@ -70,6 +70,10 @@ button {
 }
 
 /* Heading */
+.h1 {
+  visibility: hidden;
+}
+
 .h3,
 .new-task-label {
   color: #333;
