@@ -79,6 +79,7 @@ input,button{
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  width: 226px
 }
 .task-input:focus {
   color: #333;
@@ -115,9 +116,6 @@ input,button{
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
-}
-.task-input {
-  width: 226px
 }
 .delete-img {
   height: 2em;
